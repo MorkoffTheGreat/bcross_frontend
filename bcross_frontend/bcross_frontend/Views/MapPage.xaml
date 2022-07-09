@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.MapPage"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <Grid>
+        <StackLayout>
+            <maps:Map x:Name="map"/>
+        </StackLayout>
+        <ActivityIndicator x:Name="activityIndicator"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Fill" />
+        <Rectangle x:Name="dimRect" BackgroundColor="Gray" Opacity="0.7"></Rectangle>
+    </Grid>
+</ContentPage>

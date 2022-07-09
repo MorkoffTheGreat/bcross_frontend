@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.TravelMapPage"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <ContentPage.Content>
+        <StackLayout>
+            <maps:Map x:Name="map" Margin="0,0,0,0"></maps:Map>
+            <Frame BackgroundColor="LightGreen">
+                <Label x:Name="guidLabel" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" TextColor="Black" Padding="0,0,0,0"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.StatsPage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <ContentPage.Content>
+        <StackLayout x:Name="layout" Padding="30,30,30,30">
+            <Frame BackgroundColor="LightGreen" xct:ShadowEffect.Color="Gray" xct:ShadowEffect.Opacity="1" Margin="0,0,0,20">
+                <Label Text="Топ-20 пользователей по рейтингу" TextColor="Black" HorizontalOptions="Fill" FontSize="20" HorizontalTextAlignment="Center"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "503522278504",
+    "project_id": "bcross-9c260",
+    "storage_bucket": "bcross-9c260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503522278504:android:deb45b0849abe10b9d8fdd",
+        "android_client_info": {
+          "package_name": "com.morkoff.bcross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503522278504-23929aj8q5o6q3c97679bte1gfd059rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.morkoff.bcross",
+            "certificate_hash": "753d41f789e9b00833f527062d96a26343034599"
+          }
+        },
+        {
+          "client_id": "503522278504-4ajjoa6u3mabmjj7hitvvlfsdqvn6hee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr5ccujc7A5E3bOiD0SemEEfTAYcWKtoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503522278504-4ajjoa6u3mabmjj7hitvvlfsdqvn6hee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

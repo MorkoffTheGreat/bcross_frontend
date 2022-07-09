@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="30,0,30,0" Spacing="15">
+            <Entry x:Name="emailBox" Placeholder="E-Mail" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"/>
+            <Entry x:Name="usernameBox" Placeholder="Никнейм" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"/>
+            <Entry x:Name="cityBox" Placeholder="Город (необязательно)" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"/>
+            <Entry x:Name="phoneBox" Placeholder="Номер телефона (необязательно)" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"/>
+            <Entry x:Name="passBox" IsPassword="True" Placeholder="Пароль" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"/>
+            <Button x:Name="regBtn" Text="Зарегистрироваться" Clicked="regBtn_Clicked" Style="{StaticResource CustomButton}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.PutBookPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="bookLayout" Padding="30,30,30,30">
+                <RadioButton x:Name="ExistingBook" Content="Существующая книга" IsChecked="True" CheckedChanged="ExistingBook_CheckedChanged" TextColor="Black"></RadioButton>
+                <Entry x:Name="GuidField" PlaceholderColor="Gray" Placeholder="Код книги" IsEnabled="True" Style="{StaticResource CustomEntry}"></Entry>
+                <RadioButton x:Name="NewBook" Content="Новая книга" TextColor="Black"></RadioButton>
+                <Entry x:Name="NameField" PlaceholderColor="Gray" Placeholder="Название книги" IsEnabled="False" Style="{StaticResource CustomEntry}"></Entry>
+                <Entry x:Name="AuthorField" PlaceholderColor="Gray" Placeholder="Автор книги" IsEnabled="False" Style="{StaticResource CustomEntry}"></Entry>
+                <Entry x:Name="YearField" PlaceholderColor="Gray" Placeholder="Год выпуска книги" IsEnabled="False" Style="{StaticResource CustomEntry}"></Entry>
+                <Button x:Name="PutBtn" Text="OK" Clicked="PutBtn_Clicked" Style="{StaticResource CustomButton}"></Button>
+            </StackLayout>
+            <StackLayout x:Name="putLayout" IsVisible="False" Padding="30,30,30,30">
+                <Entry x:Name="locEntry" PlaceholderColor="Gray" Placeholder="Местоположение" IsEnabled="False" Style="{StaticResource CustomEntry}"/>
+                <Button x:Name="locButton" Text="Выбрать на карте" Clicked="locButton_Clicked" Style="{StaticResource CustomButton}"/>
+                <Entry x:Name="commentEntry" PlaceholderColor="Gray" Placeholder="Комментарий" Style="{StaticResource CustomEntry}"/>
+                <Button x:Name="putRecordBtn" Text="OK" Clicked="putRecordBtn_Clicked" Style="{StaticResource CustomButton}"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

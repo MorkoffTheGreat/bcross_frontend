@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.App"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CustomButton" TargetType="Button">
+                <Setter Property="Background">
+                    <LinearGradientBrush>
+                        <GradientStop Color="#7CCF80" Offset="0"/>
+                        <GradientStop Color="#70e674" Offset="0.5"/>
+                        <GradientStop Color="#7CCF80" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Margin" Value="0,0,0,10"/>
+                <Setter Property="xct:ShadowEffect.Color" Value="Gray"/>
+                <Setter Property="xct:ShadowEffect.Opacity" Value="0.5"/>
+                <Setter Property="xct:ShadowEffect.Radius" Value="5"/>
+            </Style>
+
+            <Style x:Key="CustomEntry" TargetType="Entry">
+                <Setter Property="PlaceholderColor" Value="SlateGray"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

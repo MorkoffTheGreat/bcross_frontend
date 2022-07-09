@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.ProfilePage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30,30,30">
+            <StackLayout>
+                <Frame BackgroundColor="LightGreen" xct:ShadowEffect.Color="Gray" xct:ShadowEffect.Opacity="1" Margin="0,0,0,20">
+                    <Label x:Name="profileNameLabel" TextColor="Black" HorizontalOptions="Center"/>
+                </Frame>
+                <Button x:Name="putBtn" Text="Оставленные книги" Clicked="putBtn_Clicked" Style="{StaticResource CustomButton}"/>
+                <Button x:Name="takenBtn" Text="Взятые книги" Clicked="takenBtn_Clicked" Style="{StaticResource CustomButton}"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button x:Name="aboutBtn" Text="О приложении" Clicked="aboutBtn_Clicked" Style="{StaticResource CustomButton}" VerticalOptions="End"/>
+                <Button x:Name="logoffBtn" Text="Выйти из аккаунта" Clicked="logoffBtn_Clicked" Style="{StaticResource CustomButton}" VerticalOptions="End"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

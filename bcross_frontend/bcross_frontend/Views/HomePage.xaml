@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.Views.HomePage">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30,30,30">
+            <StackLayout>
+                <Button x:Name="takeBookBtn" Text="Забрать книгу" Clicked="takeBookBtn_Clicked" Style="{StaticResource CustomButton}"/>
+                <Button x:Name="addBookBtn" Text="Разместить книгу" Clicked="addBookBtn_Clicked" Style="{StaticResource CustomButton}"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button x:Name="howToBtn" Text="Как это работает?" Clicked="howToBtn_Clicked" Style="{StaticResource CustomButton}" VerticalOptions="End"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

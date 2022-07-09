@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bcross_frontend.AuthPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="30,0,30,0" Spacing="15">
+            <Entry x:Name="loginBox" Placeholder="E-Mail" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"></Entry>
+            <Entry x:Name="passBox" IsPassword="True" Placeholder="Пароль" PlaceholderColor="SlateGray" Style="{StaticResource CustomEntry}"></Entry>
+            <Button x:Name="lessgoBtn" Text="Войти" Clicked="lessgoBtn_Clicked" BorderRadius="25" Style="{StaticResource CustomButton}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
